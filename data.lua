@@ -12,12 +12,4 @@ if mods['space-exploration'] then
             { data_util.mod_prefix..'delivery-cannon-weapon-capsule', 1 }
         }
     }
-
-    -- patch RFP compatibility removing the empty-antimatter-canister recipe
-    if mods["RealisticFusionPower"] then
-        if settings.startup["rfp-replace-se"] then
-            data.raw.recipe[data_util.mod_prefix..'empty-antimatter-canister'].hidden = false
-            table.insert(data.raw.technology["rfp-antimatter-processing"].effects, {type = "unlock-recipe", recipe = data_util.mod_prefix.."empty-antimatter-canister"})
-        end
-    end
 end

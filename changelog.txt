@@ -1,9 +1,9 @@
----------------------------------------------------------------------------------------------------
-Version: 0.1.0
-Date: 2022-05-19
-  Features:
-    - Add Krastorio 2's antimatter rocket as a delivery cannon ammo recipe
-
+Version: 0.1.2
+Date: 2023-04-16
+  Changes:
+    - Reformat changelog
+  Bugfixes:
+    - Move empty-antimatter-canister fix to data-final-fixes
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2023-04-16
@@ -11,3 +11,9 @@ Date: 2023-04-16
     - Restrict to Krastorio 1.2.x and Space Exploration 0.5.x
   Features:
     - Add back the empty-antimatter-canister recipe which is removed by RealisticFusionPower's "Replace SE antimatter" option
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2022-05-19
+  Features:
+    - Add Krastorio 2's antimatter rocket as a delivery cannon ammo recipe
+
